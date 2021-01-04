@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Abusa",
+	"version": "1.0",
+	"incognito": "split",
+	"description": "This extension detects bad words, flag and delete them. All rights are belong to Team 404.",
+	"icons": {
+		"128": "icons/logo.png",
+		"48": "icons/logo.png",
+		"16": "icons/logo.png"
+	},
+	"browser_action": {
+		"default_icon": "icons/logo.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+	"activeTab", 
+	"webRequest", 
+	"webRequestBlocking",
+    "clipboardRead",
+    "storage",
+    "clipboardWrite",
+    "contentSettings",
+    "tts",
+    "notifications",
+	"geolocation"
+  ]
+}

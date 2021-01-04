@@ -92,3 +92,11 @@ a {
 .bot {
   text-align: center;
 }
+
+i.fas {
+  color: #ef4f4f;
+  }
+
+  .fa-trash-alt {
+    color: rgb(59, 91, 152);
+  }

@@ -565,9 +565,13 @@ pre code {
 }
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.row-team {
+  flex-wrap: inherit;
 }
 
 .no-gutters {
@@ -10096,4 +10100,8 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.temp {
+  background-image: url("icons/bg_illustrate.jpg");
 }

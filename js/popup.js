@@ -3,6 +3,7 @@ $(document).ready(function () {
     $('#flag').prop("disabled", !$("#switch").prop("checked"));
     $('#delete').prop("disabled", !$("#switch").prop("checked"));
     $('#Check').prop("disabled", !$("#switch").prop("checked")); 
+    $('#act').prop("disabled", !$("#switch").prop("checked"));
   })
 });
 

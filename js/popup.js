@@ -4,6 +4,14 @@ $(document).ready(function () {
     $('#delete').prop("disabled", !$("#switch").prop("checked"));
     $('#Check').prop("disabled", !$("#switch").prop("checked")); 
     $('#act').prop("disabled", !$("#switch").prop("checked"));
+
+    if (!this.checked) {
+      $("#generate").prop("disabled",true);
+      $('#Check').prop("checked",false);
+      $('#flag').prop("checked",false);
+      $('#delete').prop("checked",false);
+    }
+
   })
 });
 

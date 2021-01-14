@@ -1,0 +1,1 @@
+This is the model with accuracy of 94.4 on test data and 99.8 on training data for detecting the toxic content with LSTM neural network and keras.

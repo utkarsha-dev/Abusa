@@ -3,7 +3,7 @@ API to detect, flag and generate reports of foul and abusive texts in specific l
 =======
 Implementing a browser extension using JavaScript with the features mentioned below:
 
-Detecting abusive content on the social media platforms using Word Embedding
+Detecting abusive content on the social media platforms using LSTM 
 
 Multilingual that is detect the abusive content written in any  language (using Google API) so that it can be incorporated in the training dataset
 

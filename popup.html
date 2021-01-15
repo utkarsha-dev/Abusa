@@ -5,8 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="css/popup.css">
 	<link rel="stylesheet" type="text/css" href="css/alertbox.css">
 	<script src="jquery-3.5.1.min.js"></script>
-	<script src="js/popup.js"></script>
 	<script src="js/alertbox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bottom.css">
+	<script src="js/bottom.js"></script/>
 	<style type="text/css">
 		body {
 			width: 250px;
@@ -15,49 +16,35 @@
 		}
 	</style>
 </head>
-<body bgcolor="#30475e">
-	<table>
-		<tr>
-			<td colspan="2"><img style=" width: 60px;height: 60px;color: #30475e" src="icons/logo.png"></td>
-			<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-			<td><h1 class="glow">Abusa</h1></td>
-            <!--<td><b style="font-size: 45px;color: #f05454">Abusa</b></td>-->
-		</tr>
-	</table>
+<body style="background-color: #30475e;">
+<div class="bot">
+	<label class="glow" style="text-align: center">Abusa</label>
+	<h4 style="text-align: center"></h4>
+</div>
 	<hr class="hr">
-
-	<table>
-		<tr>
-			<td colspan="2"><b style="font-size: 18px">Enable/Disable</b></td>
-			<td> &nbsp;&nbsp; </td>
-			<td><label class="switch">
-				<input type="checkbox" id="switch">
-				<span class="slider round"></span>
-                </label>
-            </td>
-		</tr>
-		<tr>
-			<td colspan="2"><b style="font-size: 18px">Do You Want to ?</b></td>
-			<td> &nbsp;&nbsp; </td>
-			<td>
-				<input type="radio" id="flag" name="choice" value="flag" disabled>
-				<label for="flag"><b style="font-size: 15px">Flag</b></label><br>
-				<input type="radio" id="delete" name="choice" value="delete" disabled>
-				<label for="delete"><b style="font-size: 15px">Delete</b></label>
-            </td>
-		</tr>
-	</table>
+	
+	<div class="container">
+		 <b style="font-size: 15px">Do you want to ?</b>
+		<label>
+			<input type="radio" id="flag" name="choice" value="flag">
+			Flag
+		</label>
+		<label>
+			<input type="radio" id="delete" name="choice" value="delete">
+			Delete
+		</label>
+	</div>
 	<br>
 	<div class="container" style="height:auto;position: relative;">
 		<div class="center" style="position: absolute;top: 50%;left: 50%;-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);" id="action">
-			<button id="act" style="justify-content: center;align-items: center;" disabled>Abusa!</button>
+			<button id="act" style="justify-content: center;align-items: center;">Abusa!</button>
 		</div>
 	</div>
 	<br>
 	<hr class="hr">
 	
 	<div>
-		<label for="Checkbox"><input id="Check" type="checkbox" disabled/>Check if you want to generate a report</lable>
+		<label for="Checkbox"><input id="Check" type="checkbox"/>Check if you want to generate a report</lable>
 		<p>
 		<button id="generate" disabled>Generate</button>
 	</div>
@@ -68,7 +55,8 @@
 	<a href="teampage.html" target="_blank"> <span style="cursor:pointer">Abusa</span></a>
 	<b style="font-size: 12px">| Any Queries ?</b> 
 	<a href="mailto:teamabusa@gmail.com" target="_blank"> <span style="cursor:pointer">Contact</span></a>
-	</div>
-       	
+	</div> 
+	
+	<script src="js/popup.js"></script>
 </body>
 </html>

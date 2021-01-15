@@ -11,25 +11,13 @@
 	},
 	"browser_action": {
 		"default_icon": "icons/logo.png",
-		"default_popup": "popup.html"
+		"default_popup": "popup.html",
+		"default_title": "Abusa Extension!"
 	},
-	"content_scripts": [
-		{
-			"matches": ["<all_urls>"],
-			"js": ["jquery-3.5.1.min.js","myscript.js"]
-
-		}
-	],
 	"permissions": [
-	"activeTab", 
-	"webRequest", 
-	"webRequestBlocking",
-    "clipboardRead",
-    "storage",
-    "clipboardWrite",
-    "contentSettings",
-    "tts",
-    "notifications",
-	"geolocation"
+	"activeTab",
+	"tabs",
+    "<all_urls>",
+    "storage"
   ]
 }

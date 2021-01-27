@@ -1,4 +1,4 @@
-alert("NO ABUSE PLEASE ! WE DELETED THE ABUSE WORD")
+alert("NO ABUSE PLEASE ! Abusa has deleted all abusive words from this page.")
 arr = []
 id = "abusarandomid";
 idNum = 0;

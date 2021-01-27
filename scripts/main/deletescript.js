@@ -23,9 +23,9 @@ for (var i = 0; i < items.length; i++) {
     }
 }
 
-const url1 = "https://abusa.herokuapp.com/getAbusiveData";
+const url = "https://abusa.herokuapp.com/getAbusiveData";
 
-fetch(url1).then(r => {
+fetch(url).then(r => {
     if (r.ok) {
         printData(r.json());
     }

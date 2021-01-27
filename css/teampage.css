@@ -54,7 +54,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #212529c4;
   text-align: left;
   background-color: #fff;
 }
@@ -10100,8 +10100,4 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
-}
-
-.temp {
-  background-image: url("icons/bg_illustrate.jpg");
 }

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(event){
-    var dataText = [ "Say No To Abuse", "Stop Bullying", "Talk politely", "Respect Everyone!"];
+    var dataText = [ "Don't Abuse", "Stop Bullying", "Talk politely", "Respect Everyone!"];
     
     function typeWriter(text, i, fnCallback) {
       if (i < (text.length)) {

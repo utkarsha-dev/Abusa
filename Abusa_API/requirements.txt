@@ -1,0 +1,19 @@
+click==7.1.2
+Flask==1.1.2
+Flask-Cors==3.0.10
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib==1.0.0
+Keras-Preprocessing==1.1.2
+MarkupSafe==1.1.1
+nltk==3.5
+numpy==1.19.5
+pandas==1.1.5
+python-dateutil==2.8.1
+pytz==2020.5
+regex==2020.11.13
+six==1.15.0
+tflite-runtime @ https://github.com/google-coral/pycoral/releases/download/release-frogfish/tflite_runtime-2.5.0-cp36-cp36m-linux_x86_64.whl
+tqdm==4.56.0
+Werkzeug==1.0.1

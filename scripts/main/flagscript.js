@@ -40,7 +40,7 @@ function checkData(data) {
     for (var i = 0; i < arr.length; i++) {
         for (var j = 0; j < arr[i].data.length; j++) {
             if (arr[i].data[j].toLowerCase() in data && document.getElementById(arr[i].id).firstChild.nodeValue !== null)
-                document.getElementById(arr[i].id).firstChild.nodeValue = document.getElementById(arr[i].id).firstChild.nodeValue.replace(arr[i].data[j], arr[i].data[j]+"⚑");
+                document.getElementById(arr[i].id).firstChild.nodeValue = document.getElementById(arr[i].id).firstChild.nodeValue.replace(arr[i].data[j], arr[i].data[j]+" ⚑");
         }
     }
 }

@@ -1,5 +1,5 @@
 alert("NO ABUSE PLEASE ! Abusa have flagged the abusive words and Highlighted the content.")
-alert("WE GOTTA PROBLEM HERE DUDE!!?? NO ABUSE PLZZ...")
+
 arr = []
 id = "abusarandomid";
 idNum = 0;

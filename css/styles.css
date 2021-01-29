@@ -13,3 +13,21 @@
     height:20px;
     weight:20px;
 }
+
+.fixed{
+    position:fixed;
+}
+
+.button-bg{
+    background-color: black;
+}
+
+.dark{
+    font-weight: bolder;
+    color:gray;
+    font-size: 20px;
+}
+
+centralise{
+    align-content: center;
+}

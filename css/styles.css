@@ -1,0 +1,15 @@
+.pic{
+    height: 175px;
+    width: 175px;
+    margin:10px;
+}
+
+.teamimage:hover{
+    transform: scale(1.65);
+    z-index: 10;
+}
+
+.icons{
+    height:20px;
+    weight:20px;
+}

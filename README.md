@@ -12,3 +12,5 @@ Automating the deletion of abusive comments using pyautogui or Selenium package 
 The extension would generate a report to identify the IP address and geographical location (using an open source API) of an anonymous user or users who post/send  abusive content
 Data is obtained from a competition on kaggle, which was related to toxic comment classification.
 Link - https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+
+Website Link - https://abusa.netlify.app/

@@ -14,3 +14,5 @@ Data is obtained from a competition on kaggle, which was related to toxic commen
 Link - https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 
 Website Link - https://abusa.netlify.app/
+
+API link - https://github.com/Arushi0302/Abusa_API
